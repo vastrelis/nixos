@@ -1,0 +1,37 @@
+
+output "ASUSTek COMPUTER INC PG27AQDP T6LMRS013703" {
+    mode "2560x1440@479.989"
+    scale 1
+    transform "normal"
+    position x=2560 y=0
+    focus-at-startup
+    
+    hot-corners {
+	off
+    }
+}
+
+
+output "ASUSTek COMPUTER INC VG27AQML5A T6LMAS023506" {
+  mode "2560x1440@300.000"
+  scale 1
+  transform "normal"
+  position x=5020 y=0
+
+  hot-corners {
+  	off
+  }
+}
+
+
+output "ASUSTek COMPUTER INC VG27AQML5A T4LMAS038024" {
+  mode "2560x1440@300.000"
+  scale 1
+  transform "normal"
+  position x=0 y=0
+
+  hot-corners {
+  	off
+  }
+}
+
