@@ -1,8 +1,14 @@
 // DMS Window Rules - Managed by DankMaterialShell
 // Do not edit manually - changes may be overwritten
 
-// @id=wr_1772135217443424868 @name=firefox
+// @id=wr_1772146682357342155 @name=firefox
 window-rule {
     match app-id="^firefox$"
     open-maximized true
+}
+
+// @id=wr_1772223862235023338 @name=jetbrains-rustrover
+window-rule {
+    match app-id="^jetbrains-rustrover$" title="^Welcome to RustRover$"
+    open-floating true
 }

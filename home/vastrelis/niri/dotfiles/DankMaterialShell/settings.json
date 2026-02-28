@@ -10,7 +10,7 @@
       }
     }
   },
-  "matugenScheme": "scheme-tonal-spot",
+  "matugenScheme": "scheme-vibrant",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
@@ -381,14 +381,30 @@
   "updaterUseCustomCommand": false,
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
-  "displayNameMode": "system",
+  "displayNameMode": "model",
   "screenPreferences": {
     "wallpaper": [
       "all"
     ]
   },
   "showOnLastDisplay": {},
-  "niriOutputSettings": {},
+  "niriOutputSettings": {
+    "DP-1": {
+      "layout": {
+        "alwaysCenterSingleColumn": true
+      },
+      "focusAtStartup": true
+    },
+    "ASUSTek COMPUTER INC PG27AQDP T6LMRS013703": {
+      "layout": {
+        "alwaysCenterSingleColumn": true
+      },
+      "focusAtStartup": true
+    },
+    "ASUSTek COMPUTER INC VG27AQML5A T4LMAS038024": {
+      "layout": null
+    }
+  },
   "hyprlandOutputSettings": {},
   "displayProfiles": {},
   "activeDisplayProfile": {},
