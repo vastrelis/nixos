@@ -15,6 +15,7 @@
       ../../modules/printing/cups.nix
       ../../modules/users/vastrelis.nix
       ../../modules/directories/vault.nix
+      ../../modules/nix/permissions.nix
     ];
 
   networking.hostName = "vstr-desktop-0";

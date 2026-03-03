@@ -10,11 +10,6 @@ in
   services.power-profiles-daemon.enable = true;
   services.upower.enable = true;
 
-  systemd.tmpfiles.rules = [
-    "d /etc/nixos/home/${vstr-user}/niri/dotfiles 0755 ${vstr-user} root -"
-    "Z /etc/nixos/home/${vstr-user}/niri/dotfiles 0755 ${vstr-user} root -"
-  ];
-
   environment.systemPackages = with pkgs; [
     xwayland-satellite
   ];
