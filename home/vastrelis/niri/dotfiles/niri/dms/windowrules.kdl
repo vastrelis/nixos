@@ -7,8 +7,8 @@ window-rule {
     open-maximized true
 }
 
-// @id=wr_1772223862235023338 @name=jetbrains-rustrover
+// @id=wr_1772572352942193976 @name=VSCodium
 window-rule {
-    match app-id="^jetbrains-rustrover$" title="^Welcome to RustRover$"
-    open-floating true
+    match app-id="^VSCodium$"
+    open-maximized true
 }

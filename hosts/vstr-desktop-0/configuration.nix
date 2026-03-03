@@ -11,8 +11,10 @@
       ../../modules/environment/niri.nix
       ../../modules/fonts/default.nix
       ../../modules/network/firewall.nix
+      ../../modules/nix/lsp.nix
       ../../modules/printing/cups.nix
       ../../modules/users/vastrelis.nix
+      ../../modules/directories/vault.nix
     ];
 
   networking.hostName = "vstr-desktop-0";
