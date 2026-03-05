@@ -23,20 +23,28 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
 
-  outputs = { self, nixpkgs, home-manager, sops-nix, dms, nur, ... }: {      
+  outputs = { self, nixpkgs, home-manager, disko, sops-nix, dms, nur, ... }: {      
     nixosConfigurations = {
       vstr-desktop-0 = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
 
         specialArgs = {
           vstr-user = "vastrelis";
-	      };
+        };
 
         modules = [
           ./hosts/vstr-desktop-0/configuration.nix
+          ./hosts/vstr-desktop-0/disko.nix
+
+          disko.nixosModules.disko
           home-manager.nixosModules.home-manager
           {
             nixpkgs.overlays = [

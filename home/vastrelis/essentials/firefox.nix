@@ -77,7 +77,8 @@
         "browser.discovery.enabled" = false;
         "browser.newtabpage.activity-stream.feeds.telemetry" = false;
 
-        "browser.startup.page" = 1;
+        "browser.sessionstore.resume_session_once" = true;
+        "browser.startup.page" = 3;
         "browser.shell.checkDefaultBrowser" = false;
         "browser.aboutwelcome.enabled" = false;
         "startup.homepage_welcome_url" = "";

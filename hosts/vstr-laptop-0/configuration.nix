@@ -7,8 +7,9 @@
         ../../system/countries/switzerland.nix
         ../../system/packages/default.nix
         ../../system/bootloader/plymouth.nix
-        ../../system/cpu/amd.nix
-        ../../system/gpu/amd.nix
+        ../../system/cpu/intel.nix
+        ../../system/gpu/intel-integrated.nix
+        ../../system/gpu/nvidia-hybrid.nix
         ../../modules/audio/pipewire.nix
         ../../modules/environment/niri.nix
         ../../modules/fonts/default.nix
@@ -20,7 +21,7 @@
         ../../modules/nix/permissions.nix
     ];
 
-    networking.hostName = "vstr-desktop-0";
+    networking.hostName = "vstr-laptop-0";
 
     system.stateVersion = "25.11";
     nix.settings.experimental-features = [ "nix-command" "flakes" ];
