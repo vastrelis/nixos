@@ -7,6 +7,8 @@
       ../../system/bootloader/systemd.nix
       ../../system/countries/switzerland.nix
       ../../system/packages/default.nix
+      ../../system/bootloader/plymouth.nix
+      ../../system/cpu/amd.nix
       ../../modules/audio/pipewire.nix
       ../../modules/environment/niri.nix
       ../../modules/fonts/default.nix

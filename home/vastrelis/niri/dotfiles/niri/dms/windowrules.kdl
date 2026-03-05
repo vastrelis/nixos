@@ -7,8 +7,26 @@ window-rule {
     open-maximized true
 }
 
-// @id=wr_1772572352942193976 @name=VSCodium
+// @id=wr_1772649781566989071 @name=codium
 window-rule {
-    match app-id="^VSCodium$"
+    match app-id="^codium$"
+    open-maximized true
+}
+
+// @id=wr_1772650365093604213 @name=org.pulseaudio.pavucontrol
+window-rule {
+    match app-id="^org.pulseaudio.pavucontrol$"
+    open-floating true
+}
+
+// @id=wr_1772650644457591957 @name=Spotify
+window-rule {
+    match app-id="^Spotify$"
+    open-maximized true
+}
+
+// @id=wr_1772736049637402608 @name=discord
+window-rule {
+    match app-id="^discord$"
     open-maximized true
 }

@@ -3,9 +3,10 @@
 {
   imports = [
     ./development/direnv.nix
-    ./development/vscodium.nix
+    ./development/codium/codium.nix
   
     ./essentials/firefox.nix
     ./essentials/alacritty/alacritty.nix
+    ./essentials/misc.nix
   ];
 }
